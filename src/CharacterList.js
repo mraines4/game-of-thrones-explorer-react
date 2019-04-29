@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CharacterList({characters, handleClick}) {
+function CharacterList({characters, handleClick, input}) {
     return (
         <>
         {characters.map((char, i) => {

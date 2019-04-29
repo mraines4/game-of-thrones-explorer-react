@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -17,6 +19,28 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100vw;
+}
+
+.char-box {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.char-names {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.char-details {
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-link {
